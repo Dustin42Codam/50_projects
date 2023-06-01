@@ -15,21 +15,14 @@
 }
 
 a img {
-  cursor: pointer;
-  align-self: center;
   height: 40px;
   width: 40px;
-  bottom: 10%;
-  position: absolute;
+  margin-top: 50px;
 }
 
 .github_logo {
   cursor: pointer;
   align-self: center;
-  height: 40px;
-  width: 40px;
-  bottom: 10%;
-  position: absolute;
 }
 
 body {

@@ -4,6 +4,17 @@
   box-sizing: border-box;
 }
 
+a img {
+  height: 40px;
+  width: 40px;
+  margin-top: 50px;
+}
+
+.github_logo {
+  cursor: pointer;
+  align-self: center;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   display: flex;
@@ -13,4 +24,10 @@ body {
   height: 100vh;
   margin: 0;
   overflow: hidden;
+}
+
+@media (max-height: 180px) {
+  .github_logo {
+    display: none;
+  }
 }
