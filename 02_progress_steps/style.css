@@ -9,6 +9,29 @@
   box-sizing: border-box;
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+a img {
+  cursor: pointer;
+  align-self: center;
+  height: 40px;
+  width: 40px;
+  bottom: 10%;
+  position: absolute;
+}
+
+.github_logo {
+  cursor: pointer;
+  align-self: center;
+  height: 40px;
+  width: 40px;
+  bottom: 10%;
+  position: absolute;
+}
+
 body {
   background-color: #f6f7fb;
   font-family: 'Muli', sans-serif;
@@ -100,4 +123,10 @@ body {
 .btn:disabled {
   background-color: var(--line-border-empty);
   cursor: not-allowed;
+}
+
+@media (max-height: 180px) {
+  .github_logo {
+    display: none;
+  }
 }
