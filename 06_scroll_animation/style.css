@@ -8,11 +8,14 @@ a img {
   height: 40px;
   width: 40px;
   margin-top: 50px;
+  position: fixed;
+  top: -40px;
+  right: 10px;
+  z-index: 1;
 }
 
 .github_logo {
   cursor: pointer;
-  align-self: center;
 }
 
 body {
