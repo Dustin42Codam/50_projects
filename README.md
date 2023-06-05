@@ -2,4 +2,4 @@
 
 Collection of small exercises in HTML, JavaScript and CSS.
 
-Live Demo: https://dustins-page.com/portfolio/
+Live Demo: https://dustins-page.com/portfolio/#html
