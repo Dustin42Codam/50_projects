@@ -1,4 +1,4 @@
-# 50 projects in 50 Days
+# 50 projects in 50 Days (or less)
 
 Collection of small exercises in HTML, JavaScript and CSS.
 
