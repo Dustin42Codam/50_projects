@@ -1,3 +1,3 @@
-# Title
+# FAQ boxes
 
-Demo:
+Demo: http://dustbin.live/50_projects/12_faq_boxes/
