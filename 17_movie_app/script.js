@@ -6,9 +6,14 @@ const IMG_PATH = 'https://image.tmdb.org/t/p/w1280'
 const SEARCH_URL =
   'https://api.themoviedb.org/3/search/movie?api_key=d65b00a9f19bd68dd4959a94e4de017f&query="'
 
+const TRENDING_URL =
+  'https://api.themoviedb.org/3/trending/movie/week?api_key=d65b00a9f19bd68dd4959a94e4de017f'
+
 const form = document.getElementById('form')
 const search = document.getElementById('search')
 const main = document.getElementById('main')
+
+showPopularMovies()
 
 async function getMovies(url) {
   const res = await fetch(url)
@@ -58,3 +63,7 @@ form.addEventListener('submit', (e) => {
     window.location.reload()
   }
 })
+
+function showPopularMovies() {
+  getMovies(TRENDING_URL)
+}
