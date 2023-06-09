@@ -65,6 +65,7 @@ h3 {
   text-align: center;
   margin: 5px;
   transition: 0.3s ease;
+  font-size: 0.75rem;
 }
 
 .cup.cup-small.full {
