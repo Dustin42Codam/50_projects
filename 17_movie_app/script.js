@@ -38,7 +38,7 @@ function showMovies(movies) {
 			<div class="movie-info">
 	  			<h3>${title}</h3>
 	  			<span class="${
-            vote_average > 5 ? (vote_average > 7.5 ? 'green' : 'orange') : 'red'
+            vote_average > 5 ? (vote_average > 7 ? 'green' : 'orange') : 'red'
           }">${vote_average.toFixed(1)}</span>
 			</div>
 			
