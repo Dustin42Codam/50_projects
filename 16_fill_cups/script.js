@@ -13,11 +13,16 @@ smallCups.forEach((cup, index) => {
 
 function highlightCups(targetIndex) {
   if (
-    smallCups[targetIndex].classList.contains('full') &&
-    !smallCups[targetIndex].nextElementSibling.classList.contains('full')
+    (smallCups[targetIndex].classList.contains('full') &&
+      smallCups[targetIndex].nextElementSibling &&
+      !smallCups[targetIndex].nextElementSibling.classList.contains('full')) ||
+    (targetIndex === smallCups.length - 1 &&
+      smallCups[targetIndex].classList.contains('full'))
   ) {
+    console.log('true')
     targetIndex--
   }
+
   smallCups.forEach((cup, index) => {
     if (index <= targetIndex) {
       cup.classList.add('full')
