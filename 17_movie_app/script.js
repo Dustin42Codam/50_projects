@@ -56,6 +56,8 @@ form.addEventListener('submit', (e) => {
 
   const searchTerm = search.value
 
+  main.innerHTML = ''
+
   if (searchTerm && searchTerm !== '') {
     getMovies(SEARCH_URL + searchTerm)
     search.value = ''
