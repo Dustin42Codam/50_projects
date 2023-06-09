@@ -29,7 +29,7 @@ body {
   margin: 0;
   background-position: center center;
   background-size: cover;
-  transition: 0.4s ease;
+  transition: 0.4s;
 }
 
 body::before {
@@ -54,7 +54,7 @@ body::before {
 .slide {
   opacity: 0;
   height: 100vh;
-  width: 100vh;
+  width: 100vw;
   background-position: center center;
   background-size: cover;
   position: absolute;
